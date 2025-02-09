@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Brev</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="left">
+                <button class="invertButton" id="invertButton"><img src="https://upload.wikimedia.org/wikipedia/commons/e/ee/.NET_Core_Logo.svg" alt=".NET Logo" width="100" id="firstimg"></button>
+            </div>  
+            <div class="right">  
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="cv.html">RESUMÉ</a></li>
+                    <li><a href="Info.html">ABOUT ME</a></li>
+                    <li><a href="portfolio.html">PORTFOLIO</a></li>
+                    <li><a href="aspirationer.html">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="portfolio-container">
+                     <a href="#modal1" class="modalPlacement">
+                <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" 
+                    alt="Project 1" 
+                    class="portfolio-img">
+                    <p class="githubTitle">Individuellt Databsas projekt</p>
+            </a>
+            <a href="#modal2" class="modalPlacement2">
+                <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" 
+                    alt="Project 2" 
+                    class="portfolio-img">
+                <p class="githubTitle">Wealth Specialist</p>
+            </a>
+            <a href="#modal3" class="modalPlacement3">
+                <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" 
+                    alt="Project 2" 
+                    class="portfolio-img">
+                <p class="githubTitle">Placeholder</p>
+            </a>
+        </div>
+        <div id="modal1" class="modal">
+            <div class="modal-content">
+                <a href="#" class="close">&times;</a>
+                <h2>Project 2</h2>
+                <p>
+                    Ett projekt där jag skapade en databas i SQL. Sedan ett program som lägger till hämtar och filtrera data från databasen, detta görs igenom Entity Framework.
+                </p>
+                <a href="https://github.com/OliverWG-net/LAB3" target="_blank" class="btn">Visit Repo</a>
+            </div>
+        </div>
+        <div id="modal2" class="modal">
+            <div class="modal-content">
+                <a href="#" class="close">&times;</a>
+                <h2>Project 1</h2>
+                <p>Ett bank system där du kan skapa användare eller öppna nya konton. Du kan också omväxla valuta samt föra över pengar mellan egna konton eller till andra användare.<br>
+                Du kan kan också ansöka om lån, sedan se räntan på ditt lån eller på ditt sparkonto.</p>
+                <a href="https://github.com/OliverWG-net/WealthSpecialists" target="_blank" class="btn">Visit Repo</a>
+            </div>
+        </div>
+        <div id="modal3" class="modal">
+            <div class="modal-content">
+                <a href="#" class="close">&times;</a>
+                <h2>Project 3</h2>
+                <p>Detta är en placeholder för framtida project.</p>
+                <a href="https://github.com//" target="_blank" class="btn">Visit Repo</a>
+            </div>
+    </main>
+    <footer>
+        &copy; Oliver Garderud Williams
+    </footer>
+</body>
+</html>

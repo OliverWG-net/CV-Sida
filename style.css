@@ -510,6 +510,10 @@ div p{
     text-shadow: 3px 0px 5px rgba(92, 85, 85, 0.651);
     width: 20%;
     padding-bottom: 1rem;
+    transition: transform 0.3s ease;
+}
+.contactGithub:hover{
+    transform: scale(1.1);
 }
 
 .noDeco{
@@ -517,10 +521,29 @@ div p{
     color: white;
     font-family: 'raleway', sans-serif;
     text-shadow: 1px 0px 5px rgba(90, 89, 89, 0.651);
+    transition: transform 0.3s ease;
+}
+
+.background{
+    background-color: #f7f7f7f6;
+    border: #007bff;
+}
+
+.noDeco:hover {
+    text-decoration: underline;
+    transform: scale(1.1); 
 }
 
 .smallMargin{
     max-height: 50%;
+}
+
+.hover{
+    transition: transform 0.3s ease;
+}
+
+.hover:hover{
+    transform: scale(1.1);
 }
 
 .niceText{
@@ -530,10 +553,21 @@ div p{
     font-family: 'raleway', sans-serif;
 }
 
-.smallText{
-    font-size: 1rem;
+.niceText1{
+    font-size: 3rem;
     color: white;
     text-shadow: 1px 0px 5px rgba(90, 89, 89, 0.651);
+    font-family: 'raleway', sans-serif;
+}
+
+.smallText{
+    font-size: 1.2rem;
+    line-height: 2rem;
+    color: white;
+    text-shadow: 1px 0px 5px rgba(90, 89, 89, 0.651);
+    background-color: #292828f6;
+    border-radius: 8px;
+    height: auto;
 }
 
 .placement{

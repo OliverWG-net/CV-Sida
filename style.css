@@ -560,6 +560,18 @@ div p{
     font-family: 'raleway', sans-serif;
 }
 
+.introplacement{
+    font-size: 1.5rem;
+    color:white;
+    grid-column: 3/4;
+    grid-row: 5/6;
+    height: 100%;
+    width: auto;
+    border-radius: 10px;
+    font-family: 'raleway', sans-serif;
+    margin-right: 1.5rem;
+}
+
 .smallText{
     font-size: 1.2rem;
     line-height: 2rem;
@@ -605,6 +617,9 @@ div p{
     .hide{
         display: none;
     }
+    .placement{
+        display: none;
+    }
 
 }
 
@@ -639,6 +654,10 @@ div p{
     }
     .placement{
         display: none;
+        }
+
+        .introplacement{
+            display: none;
         }
 
     .sections {

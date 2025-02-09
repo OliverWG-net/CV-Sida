@@ -11,7 +11,7 @@
 ☑️ **Innehåll**
 
 - [x]  Alla sidorna på webbplatsen ska ha innehåll
-- [ ]  Innehåll som måste finnas någonstans på webbplatsen är:
+- [x]  Innehåll som måste finnas någonstans på webbplatsen är:
     - [x]  En presentation av dig själv
     - [x]  Ditt CV med utbildningar, arbetsplatser m.m. (precis som ett vanligt CV)
     - [x]  En portfolio med projekt du gjort (du kan som minst lägga in dina skolprojekt men du kan även lägga till andra projekt)
@@ -58,5 +58,5 @@
 <aside>
 ☑️ **Deploy**
 
-- [ ]  Publicera din sida på Github Pages så att den blir åtkomlig via en länk.
+- [x]  Publicera din sida på Github Pages så att den blir åtkomlig via en länk.
 </aside>

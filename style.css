@@ -151,10 +151,10 @@ p{
     grid-column: 2/3;
     margin-bottom: 0.1rem;
     padding: 3%;
-    text-align: center;;
+    text-align: center;
     font-family: 'Riot Sans Latin', Arial, sans-serif;
     font-size: 3rem;
-    line-height: 3rem;
+    line-height: 1.5rem;
     text-shadow: 5px 5px 5px #000;
     font-weight: bold;
 }
@@ -497,7 +497,8 @@ div p{
 }
 
 .aboutMe{
-    font-size: 1.5rem;
+    font-size: 2rem;
+    line-height: 3rem;
     color: white;
     text-shadow: 3px 0px 5px rgba(92, 85, 85, 0.651);
 }
@@ -528,18 +529,51 @@ div p{
     font-family: 'raleway', sans-serif;
 }
 
+.smallText{
+    font-size: 1rem;
+    color: white;
+    text-shadow: 1px 0px 5px rgba(90, 89, 89, 0.651);
+}
+
+.placement{
+    grid-column: 3/4;
+    grid-row: 2/5;
+    height: 100%;
+    width: auto;
+    border-radius: 10px;
+    margin-left: 2.5rem;
+}
+
 @media(max-width: 450px){
     .niceText{
         display: inline-block;
     }
     .card{
-        width: 50%;
-        display: inline-block;
+        width: 90%;
+        display: block;
     }
     .content-container{
         display: inline-block;
     }
+    .githubTitle{
+        margin-left: 2.7rem;
+    }
+    footer{
+        margin-top:400px;
+        display: flex;
+        flex-direction: column;
+    }
+    .smallText{
+        font-size: 1rem;
+        display: none;
+    }
+    .hide{
+        display: none;
+    }
+
 }
+
+
 
 @media (max-width: 1008px) {
     
@@ -565,13 +599,34 @@ div p{
 
     .content-container .sectiontech{
         display: flex;
-        flex-direction: column;
+        flex-direction: column; 
         align-items: center;
-        justify-content: center;
+    }
+    .placement{
+        display: none;
+        }
+
+    .sections {
+        order: 1;
+    }
+    }
+
+    p{
+        font-size: 1.5rem;
+    }
+
+    footer{
+        margin-top:600px
 
     }
-    
-}
+    .sections {
+        order: 0;
+    }
+    .githubTitle{
+        
+        line-height: 2.5rem;
+    }
+
 
 @media (min-width:943px){
     .card {
